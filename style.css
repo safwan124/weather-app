@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/1540005.jpg");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card {
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5)!important;
+    border-radius: 1rem!important;
+}
+.search-container input,
+.search-container button{
+    outline: none;
+    border: none; 
+    padding: 5px;  
+}
+.search-container input{
+    border-bottom: 1px solid #000;
+    margin-right: 25px;
+    background: rgba(255, 255, 255, 0.1)!important;
+}
+.search-container button {
+    padding: 10px;
+}
+.cityname,
+.temp,
+.weather,
+.speed,
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temp {
+    font-size: 3.5rem;
+}
+.speed {
+    background-color: #bec4d587;
+    border-radius: 12px;
+    width: 100px;
+    margin-left: 8rem;
+}
